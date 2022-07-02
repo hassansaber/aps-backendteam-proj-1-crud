@@ -2,8 +2,13 @@ const express = require("express");
 const app = express();
 const connectDB = require("./db/connect");
 require("dotenv").config();
-
+//-
+const userRouter = require("./routes/user.router");
+const middlewareRequest = require("./middlewares/request.middleware");
+app.use(middlewareRequest);
 //---
+
+app.use("/api/v1/user", userRouter);
 
 app.get("/login", (req, res) => {
   res.send("login page");
