@@ -1,0 +1,31 @@
+{
+  "name": "aps-backendteam-proj-1-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hassansaber/aps-backendteam-proj-1-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hassansaber/aps-backendteam-proj-1-crud/issues"
+  },
+  "homepage": "https://github.com/hassansaber/aps-backendteam-proj-1-crud#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2"
+  }
+}
